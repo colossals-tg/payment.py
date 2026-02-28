@@ -10,7 +10,7 @@ BOT_TOKEN = "7545528821:AAH8vM7R3VitO6sinXImnU079-gRlRgoDL4"
 API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3ZGY0MzZlNS1lNWM4LTQxOGYtYmI0YS1hYWI3YWZmNjA1NjciLCJleHAiOjIwODc3NTY0OTYsImlzcyI6IkF1dGhIdWIiLCJhdWQiOiJSZXNvdXJjZXMifQ.4uiefVsmWLZ2Ciepve93lRrCPTWVYC37J3VP_rtMWxI"
 BUSINESS_ID = "7df436e5-e5c8-418f-bb4a-aab7aff60567"
 BASE_URL = "https://prod-payments-api.forebit.io"
-WEBHOOK_URL = "https://yourdomain.com/webhook"
+WEBHOOK_URL = "https://payment-py.onrender.com/webhook"
 
 logging.basicConfig(level=logging.INFO)
 
