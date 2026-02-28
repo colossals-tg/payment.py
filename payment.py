@@ -110,8 +110,6 @@ async def main():
 
     threading.Thread(target=run_flask).start()
 
-    await telegram_app.initialize()
-    await telegram_app.start()
     await telegram_app.run_polling()
 
 if __name__ == "__main__":
