@@ -86,8 +86,11 @@ async def create_payment(amount, coin, user_id):
                 return data["data"]
             return None
 
-@app_flask.route("/webhook", methods=["POST"])
+@app_flask.route("/webhook", methods=["GET", "POST"])
 def webhook():
+    if request.method == "GET":
+        return "Webhook working", 200
+
     data = request.json
     payment = data.get("data", {})
     payment_id = payment.get("id")
